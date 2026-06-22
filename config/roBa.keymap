@@ -107,10 +107,10 @@
 
         SYMBOLS {
             bindings = <
-&kp ESCAPE             &kp LS(N6)  &kp LS(SINGLE_QUOTE)  &kp LS(N8)        &kp LS(N9)                           &kp LS(N8)            &kp LS(N9)            &trans            &trans      &trans
-&kp LS(EQUAL)          &kp LS(N4)  &kp LS(N5)            &kp EQUAL         &kp UNDERSCORE   &trans      &trans  &kp LS(RIGHT_BRACKET)  &kp LS(NON_US_HASH)   &kp SEMICOLON     &kp LS(N7)  &kp INT3
-&kp LS(LEFT_BRACKET)   &kp LS(N1)  &kp LEFT_BRACKET      &kp SLASH         &kp LS(3)        &trans      &trans  &kp RIGHT_BRACKET      &kp NON_US_HASH       &kp SINGLE_QUOTE  &kp LS(N2)  &kp LS(INT3)
-&trans                 &trans      &trans                &trans            &trans           &trans      &trans  &trans                                                                    &trans
+&kp ESCAPE             &kp LS(N6)  &kp LS(SINGLE_QUOTE)  &kp LS(N8)        &kp LS(N9)                                    &kp LS(N8)             &kp LS(N9)            &trans            &trans      &trans
+&kp LS(EQUAL)          &kp LS(N4)  &kp LS(N5)            &kp EQUAL         &kp LS(INTERNATIONAL_1)   &trans      &trans  &kp LS(RIGHT_BRACKET)  &kp LS(NON_US_HASH)   &kp SEMICOLON     &kp LS(N7)  &kp INT3
+&kp LS(LEFT_BRACKET)   &kp LS(N1)  &kp LEFT_BRACKET      &kp SLASH         &kp LS(N3)                &trans      &trans  &kp RIGHT_BRACKET      &kp NON_US_HASH       &kp SINGLE_QUOTE  &kp LS(N2)  &kp LS(INT3)
+&trans                 &trans      &trans                &trans            &trans                    &trans      &trans  &trans                                                                    &trans
             >;
         };
 
