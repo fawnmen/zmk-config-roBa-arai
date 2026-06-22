@@ -11,12 +11,12 @@
 &mt {
     flavor = "hold-preferred";
     quick-tap-ms = <0>;
-    tapping-term-ms = <1000>;
+    //tapping-term-ms = <1000>;
 };
 
 &lt {
     quick-tap-ms = <0>;
-    tapping-term-ms = <1000>;
+    //tapping-term-ms = <1000>;
 };
 
 &sl { release-after-ms = <250>; };
