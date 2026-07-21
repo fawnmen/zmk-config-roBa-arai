@@ -97,7 +97,7 @@
         default_layer {
             bindings = <
 &kp Q        &kp L         &kp U         &kp COMMA         &kp PERIOD                                          &kp F        &kp W  &kp R  &kp Y  &lt 5 P
-&kp E        &kp I         &kp A         &kp O             &kp MINUS    &trans                  &kp LS(MINUS)   &kp K        &kp T  &kp N  &kp S  &kp H
+&kp E        &kp I         &kp A         &kp O             &kp MINUS    &trans                  &kp LS(MINUS)  &kp K        &kp T  &kp N  &kp S  &kp H
 &mt LSHFT Z  &kp X         &kp C         &kp V             &kp SLASH    &kp TAB                 &trans         &kp G        &kp D  &kp M  &kp J  &mt LSHFT B
 &kp LCTRL    &kp LEFT_WIN  &kp LEFT_ALT  &lt 6 LANG_HANJA  &lt 2 SPACE  &lt 3 LANG_HANGEUL      &kp BACKSPACE  &lt 1 ENTER                       &kp DEL
             >;
@@ -107,19 +107,19 @@
 
         SYMBOLS {
             bindings = <
-&kp ESCAPE             &kp LS(N6)  &kp LS(SINGLE_QUOTE)  &kp LS(N8)        &kp LS(N9)                                    &kp LS(N8)             &kp LS(N9)            &trans            &trans      &trans
-&kp LS(EQUAL)          &kp LS(N4)  &kp LS(N5)            &kp EQUAL         &kp LS(INTERNATIONAL_1)   &trans      &trans  &kp LS(RIGHT_BRACKET)  &kp LS(NON_US_HASH)   &kp SEMICOLON     &kp LS(N7)  &kp INT3
-&kp LS(LEFT_BRACKET)   &kp LS(N1)  &kp LEFT_BRACKET      &kp SLASH         &kp LS(N3)                &trans      &trans  &kp RIGHT_BRACKET      &kp NON_US_HASH       &kp SINGLE_QUOTE  &kp LS(N2)  &kp LS(INT3)
-&trans                 &trans      &trans                &trans            &trans                    &trans      &trans  &trans                                                                    &trans
+&kp ESCAPE            &kp LS(N6)  &kp LS(SINGLE_QUOTE)  &kp LS(N8)  &kp LS(N9)                                   &kp LS(N8)             &kp LS(N9)           &kp QMARK         &trans      &trans
+&kp LS(EQUAL)         &kp LS(N4)  &kp LS(N5)            &kp EQUAL   &kp LS(INTERNATIONAL_1)  &trans      &trans  &kp LS(RIGHT_BRACKET)  &kp LS(NON_US_HASH)  &kp SEMICOLON     &kp LS(N7)  &kp INT3
+&kp LS(LEFT_BRACKET)  &kp LS(N1)  &kp LEFT_BRACKET      &kp SLASH   &kp LS(N3)               &trans      &trans  &kp RIGHT_BRACKET      &kp NON_US_HASH      &kp SINGLE_QUOTE  &kp LS(N2)  &kp LS(INT3)
+&trans                &trans      &trans                &trans      &trans                   &trans      &trans  &trans                                                                    &trans
             >;
         };
 
         NUM {
             bindings = <
-&kp MINUS          &kp N7  &kp N8  &kp N9  &kp LS(SEMICOLON)                     &trans  &kp F7  &kp F8  &kp F9  &kp F10
-&kp SLASH          &kp N4  &kp N5  &kp N6  &kp LS(SINGLE_QUOTE)     &trans       &trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&mt LEFT_SHIFT N0  &kp N1  &kp N2  &kp N3  &kp PERIOD               &kp TAB      &trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12
-&trans             &trans  &trans  &trans  &trans                   &trans       &trans  &trans                          &kp F13
+&kp MINUS          &kp N7  &kp N8  &kp N9  &kp LS(SEMICOLON)                          &trans  &kp F7  &kp F8  &kp F9  &kp F10
+&kp SLASH          &kp N4  &kp N5  &kp N6  &kp LS(SINGLE_QUOTE)  &trans       &trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11
+&mt LEFT_SHIFT N0  &kp N1  &kp N2  &kp N3  &kp PERIOD            &kp TAB      &trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12
+&trans             &trans  &trans  &trans  &trans                &trans       &trans  &trans                          &kp F13
             >;
         };
 
